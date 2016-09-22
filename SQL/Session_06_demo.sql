@@ -59,3 +59,7 @@ FROM sales.SalesOrderDetail as s
 RIGHT OUTER JOIN production.product as p
 ON s.ProductID=p.ProductID;
 
+
+
+
+/* In PPT: Example of a subquery*/
