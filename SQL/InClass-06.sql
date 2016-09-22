@@ -31,5 +31,8 @@ To do this, first do an outer join between the Production.Product table and the 
 Then, add a WHERE clause to specify that the ProductID IS NULL 
 */
 
-
-
+SELECT m.ProductModelID, m.Name AS model_name,  p.ProductID,  p.Name AS product_name
+FROM Production.ProductModel AS m
+left outer join Production.Product AS p
+ON p.ProductModelID=m.ProductModelID
+WHERE p.ProductID is null;

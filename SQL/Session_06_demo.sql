@@ -63,3 +63,27 @@ ON s.ProductID=p.ProductID;
 
 
 /* In PPT: Example of a subquery*/
+Select TerritoryID, Sum(TotalDue) as Total_Due,
+100*sum(totalDue)/
+	(select Sum(totaldue)
+	From Sales.SalesOrderHeader)
+ as Pct_total_due
+From Sales.SalesOrderHeader
+group by TerritoryID
+order by TerritoryID;
+
+
+
+
+
+
+select Sum(totaldue)
+From Sales.SalesOrderHeader;
+
+
+
+Select TerritoryID, Sum(TotalDue) as Total_Due,
+100*sum(totalDue)/123216786.1159 as Pct_total_due
+From Sales.SalesOrderHeader
+group by TerritoryID
+order by TerritoryID;
