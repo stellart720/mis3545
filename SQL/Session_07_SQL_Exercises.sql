@@ -3,13 +3,10 @@ USE AdventureWorks2012; /*Set current database*/
 
 /*1, Display the total amount collected from the orders for each order date. */
 
---BEGIN Transaction
 SELECT OrderDate, SUM(TotalDue) as DailyAmount, Count(SalesOrderID) as Number_of_Orders
 FROM Sales.SalesOrderHeader
 Group by OrderDate
 Order by Sum(TotalDue) DESC
---COMMIT
--- if wrong ROLLBACK;
 
 
 /*2, Display the total amount collected from selling the products, 774 and 777. */
