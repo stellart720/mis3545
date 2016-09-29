@@ -1,11 +1,5 @@
 use AdventureWorksDW2012;
 
-/*total Amount of off-line sales in Massachusetts*/
-
-
-/*Sales Amount of Internet Sales in 1st quarter each year in each country*/
-
-
 
 /*Employees whose birthday is in Feburary*/
 
@@ -21,3 +15,11 @@ use AdventureWorksDW2012;
 
 
 /*who is a better sales representative that was born in Feburary?*/
+
+
+
+
+/*total Amount of off-line sales in Massachusetts*/
+
+
+/*Sales Amount of Internet Sales in 1st quarter each year in each country*/
