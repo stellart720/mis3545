@@ -74,10 +74,5 @@ CREATE VIEW vwStudentGradeSummary WITH SCHEMABINDING AS
 GO
 
 
-
-
-SELECT * FROM Customer
-SELECT * FROM OrderHeader
-SELECT * FROM vwStudentGradeSummary
-
+SELECT * FROM vwStudentGradeSummary;
 
