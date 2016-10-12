@@ -30,7 +30,7 @@ GO
 
 
 -- Add a few students
-INSERT INTO [dbo].[Student] ([StudentID], [FirstName], [LastName]) VALUES 
+INSERT INTO Student (StudentID, FirstName, LastName) VALUES 
 (1, 'Rachel', 'Burstiner'),
 (2, 'Ryan', 'Colaco'),
 (3, 'Julia', 'Harrigan'),
@@ -44,12 +44,20 @@ INSERT INTO [dbo].[Student] ([StudentID], [FirstName], [LastName]) VALUES
 
 
 -- Add a few courses
-INSERT INTO [dbo].[Course] ([CourseID], [CourseTitle], [Instuctor]) VALUES 
+INSERT INTO Course(CourseID, CourseTitle, Instuctor) VALUES 
 (1, 'MIS3545-BUSINESS INTELLIGENCE AND DATA ANALYTICS', 'Zhi'),
 (2, 'MIS3690-WEB TECHNOLOGIES', 'Shankar'),
 (3, 'QTM3000-CASE STUDIES IN BUSINESS ANALYTICS', 'Nathan'),
-(4, 'QTM3625-FINANCIAL SIMULATION', 'Dessi');
+(4, 'QTM3625-FINANCIAL SIMULATION', 'Dessi'),
+(5, 'SME2012-MANAGING INFORMATION TECH AND SYSTEMS', 'Clare');
 GO
+
+-- Delete the SME course
+DELETE FROM Course
+WHERE CourseTitle like 'SME%';
+GO 
+
+
 -- We will use data view to add grade data
 
 
