@@ -13,7 +13,7 @@ for i in range(20):
     print(line)
 
 
-with open('grades.csv', 'w', newline='') as f:
+with open('grades.txt', 'w', newline='') as f:
     writer = csv.writer(f, delimiter='\t')
     for i in range(20):
         line = [i + 1, grades_sample[i][0],
