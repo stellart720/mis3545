@@ -4,7 +4,7 @@
 
 In this project you will create a database from scratch, including designing a relational database, using SQL Server Data Tools to create the database, inserting data into it and making queries. This is an open-ended group project.
 
-The project is due **11:59 PM on Sunday, 10/23**.
+The project is due **11:59 PM on Wednesday, 10/26**.
 
 ### Skills Emphasized:
 
@@ -100,6 +100,6 @@ Please prepare a short document with the following sections:
 
 2. Zip all the files into *teamname_project1.zip*. Upload it to Blackboard. In the comment area on Blackboard, specify names of all team members and url of GitHub repository. **Everyone in the team needs to submit the zip file to Blackboard and add comment.**
 
-3. The project is due 11:59 PM on Sunday, 10/23.
+3. The project is due 11:59 PM on Wednesday, 10/26.
 
 
