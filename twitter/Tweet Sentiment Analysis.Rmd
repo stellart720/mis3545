@@ -39,7 +39,7 @@ Let's take a look at the first tweet in the output list:
 tweet <- babson.tweets[[1]]
 #see the content of this tweet
 tweet
-#tweet is an object of type ¡®status from the 'twitteR' package. It holds all the information about the tweet returned from Twitter
+#tweet is an object of type 'status' from the 'twitteR' package. It holds all the information about the tweet returned from Twitter
 class(tweet)
 #break down this tweet
 tweet$getScreenName()
