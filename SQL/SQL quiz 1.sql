@@ -1,6 +1,6 @@
 use AdventureWorks2012;
 
-/*a.	Show First name and last name of employees whose job title is ¡°Sales Representative¡±, ranking from oldest to youngest. You may use HumanResources.Employee table and Person.Person table. */
+/*a.	Show First name and last name of employees whose job title is 'Sales Representative', ranking from oldest to youngest. You may use HumanResources.Employee table and Person.Person table. */
 SELECT P.FirstName, P.LastName, E.BirthDate
 FROM HumanResources.Employee as E
 JOIN Person.Person as P
